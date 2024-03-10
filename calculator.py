@@ -20,5 +20,6 @@ class SimpleCalculator:
             return x / y
         else:
             raise ValueError("Cannot divide by zero")
-
-
+   
+    def calculate_square_root(self, x):
+        return math.sqrt(x)
